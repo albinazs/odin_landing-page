@@ -5,10 +5,6 @@ body {
     margin: 0px;
 }
 
-.block {
-    display: flex;
-}
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -29,9 +25,153 @@ a {
 }
 
 li {
-    margin: 10px;
+    margin: 10px 20px;
 }
 
 img {
-    width: 50px;
+    width: 200px;
+    border-radius: 10%;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    margin: 10px 20px;
+}
+
+.block2 {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.intro p {
+    margin: 10px 20px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.intro-image img {
+    margin: 10px 20px;
+    width: 500px;
+    border-radius: 0%;
+}
+
+
+.intro {
+    max-width: 500px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color:#1F2937;
+    margin: 30px;
+    text-align: center;
+}
+
+.flowers {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 30px;
+}
+
+.flower {
+    max-width: 200px;
+}
+
+.flower p {
+    font-size: 18px;
+}
+
+.block3 {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    max-width: 870px;
+    margin: 10px 20px;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+}
+
+.quote-author {
+    color: #1F2937;
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.block4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.call {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 50px 100px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.call-text1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.call-text2 {
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.footer-content {
+    margin: 10px 20px;
+    color:#E5E7EB;
+    font-size: 18px;
+
+}
+
+button {
+    padding: 10px 30px;
+    border-radius:  15px;
+    font-size: 18px;
+    margin: 0;
+}
+
+.sign-up {
+    border-style: none;
+    background-color: #3882F6;
+    color:#E5E7EB;
+    margin: 10px 20px;
+}
+
+.sign-up.invert {
+    border-style: solid;
+    border-color:#E5E7EB;
 }

@@ -43,6 +43,7 @@ h1 {
 .block2 {
     background-color: #1F2937;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding: 50px 0px;
 }
@@ -76,12 +77,13 @@ h3 {
     display: flex;
     text-align: center;
     justify-content: center;
-    gap: 50px;
     padding-bottom: 30px;
+    flex-wrap: wrap;
 }
 
 .flower {
     max-width: 200px;
+    margin: 0 30px;
 }
 
 .flower p {
